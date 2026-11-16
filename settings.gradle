@@ -3,5 +3,12 @@ pluginManagement {
         gradlePluginPortal()
         maven { name = 'MinecraftForge'; url = 'https://maven.minecraftforge.net/' }
     }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'net.minecraftforge.gradle') {
+                useModule("net.minecraftforge.gradle:ForgeGradle:${requested.version}")
+            }
+        }
+    }
 }
 rootProject.name = 'refurbishedcams'
