@@ -1,0 +1,14 @@
+{
+  "block.refurbishedcams.security_camera": "Cámara de seguridad",
+  "program.refurbishedcams.cameras": "Cámaras",
+  "gui.refurbishedcams.scanning": "Escaneando...",
+  "gui.refurbishedcams.none": "No hay cámaras en rango",
+  "gui.refurbishedcams.header": "%s cámara(s) en %s bloques",
+  "gui.refurbishedcams.refresh": "Actualizar",
+  "gui.refurbishedcams.view_hint": "Arrastrar ratón / flechas / WASD: mirar  |  Q / E: cambiar cámara  |  ESC: salir",
+  "computer.program.refurbishedcams.cameras": "Cámaras",
+  "gui.refurbished_furniture.program.refurbishedcams.cameras": "Cámaras",
+  "gui.refurbished_furniture.computer.program.refurbishedcams.cameras": "Cámaras",
+  "gui.refurbishedcams.program.cameras": "Cámaras",
+  "gui.refurbishedcams.view_hint_pad": "Stick derecho: mirar  |  LB / RB: cambiar cámara  |  B: salir"
+}

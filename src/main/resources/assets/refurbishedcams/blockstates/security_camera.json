@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "refurbishedcams:block/security_camera"
+    },
+    "facing=east": {
+      "model": "refurbishedcams:block/security_camera",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "refurbishedcams:block/security_camera",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "refurbishedcams:block/security_camera",
+      "y": 270
+    }
+  }
+}

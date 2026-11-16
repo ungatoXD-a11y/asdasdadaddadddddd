@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="refurbishedcams"
+version="1.0.0"
+displayName="Refurbished Cams"
+description='''Security cameras plus a Cameras program for the Computer of MrCrayfish's Furniture Mod: Refurbished. It detects cameras within a configurable radius (default 500 blocks).'''
+
+[[dependencies.refurbishedcams]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.refurbishedcams]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.refurbishedcams]]
+modId="refurbished_furniture"
+mandatory=true
+versionRange="[1.0.12,)"
+ordering="AFTER"
+side="BOTH"
